@@ -7,7 +7,7 @@ import click
 import pkg_resources
 import yaml
 from kedro.framework.session import KedroSession
-from kedro.framework.startup import _get_project_metadata, _is_project
+from kedro.framework.startup import _get_project_metadata 
 from kedro.framework.cli.utils import _add_src_to_path
 
 @click.group(name="ARGO")
